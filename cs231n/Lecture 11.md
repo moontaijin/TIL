@@ -17,3 +17,10 @@ Lecture 11. Segmentation, Localization, Detection
 이러한 특징 때문에 위 방법은 사용하지 않음
 
 ## Fully Convolutional
+(이미지)
+H x W크기의 입력 이미지를 Conv Layer를 **이미지 크기를 보존**하며 Convolution을 진행하여 C x H x W의 결과를 출력하게함
+여기서 C는 Category의 수를 의미하며 이는 모든 픽셀에 Classification score를 매겨 Classifying을 한다는 것을 알 수 있음.
+
+### 특징
+1. 모든 작업을 하나의 거대한 Conv layer스택을 이용하여 한번에 계산할 수 있음
+2. training data는 모든 픽셀에 labling이 되어있어야 하기 때문에 매우 만들기 힘듬( = 전처리가 매우 힘듬)

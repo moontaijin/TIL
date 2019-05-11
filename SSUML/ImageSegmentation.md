@@ -38,4 +38,9 @@ Convolution을 진행하는 함수로 padding='same', (3,3)크기의 필터를 �
 Downsampling을 진행하는 함수로 pool_size=(2,2), stride_size=(2,2)로 Maxpooling 하였다.
 
 ## decoder_block
-Upsampling을 진행하는 함수로 layers.concatenate함수를 이용하여 어느정도 픽셀의 위치 정보를 
+Upsampling을 진행하는 함수로 layers.concatenate함수를 이용하여 downsampling이전의 벡터 정보로 어느정도 픽셀의 위치 정보를 복원함
+
+# 더 공부해봐야할 것들
+
+1. dice coefficient
+2. batch, epoch, patch등 용어들

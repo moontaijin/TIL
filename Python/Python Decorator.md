@@ -114,7 +114,7 @@ greet.get_greeting(username='admin')
 
 이 때, 데코레이터를 만들게 되면 원래 함수의 속성들이 사라지는 문제점이 발생하게 되는데 
 
-이럴경우 데코레이터 내부에서 인자로 전달받은 함수가 [익명함수(람다함수)]([https://github.com/moontaijin/TIL/blob/master/Python/%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EC%9A%A9%EC%96%B4%20%EC%A0%95%EB%A6%AC.md](https://github.com/moontaijin/TIL/blob/master/Python/파이썬 용어 정리.md))처럼 취급되어 버리므로 디버깅이 난해해지는 단점이 생긴다.
+이럴경우 데코레이터 내부에서 인자로 전달받은 함수가 [익명함수(람다함수)](https://github.com/moontaijin/TIL/blob/master/Python/%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EC%9A%A9%EC%96%B4%20%EC%A0%95%EB%A6%AC.md)처럼 취급되어 버리므로 디버깅이 난해해지는 단점이 생긴다.
 
 이것을 보완하기 위해 ```fucntools``` 모듈에는 데코레이터를 위한 데코레이터 ```@wraps```가 있다.
 

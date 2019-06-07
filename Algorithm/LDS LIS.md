@@ -24,7 +24,7 @@
 
 위 문제를 본 후 든 생각은 dp를 이용하면 간단하게 풀 수 있을것 같다는 생각들었다.
 
-```vbscript
+```c++
 #include <iostream>
 #include <algorithm>
 using namespace std;
@@ -117,7 +117,7 @@ int main()
 
 이 문제는 O(N^2)으로 풀 경우 TO가 뜨므로 lower_bound 방식을 이용하여 코딩하였다.
 
-```vbscript
+```c++
 #include <iostream>
 #include <vector>
 #include <algorithm>

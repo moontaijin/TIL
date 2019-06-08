@@ -25,5 +25,5 @@ DFS와 BFS의 시간, 공간 복잡도에 대해선 다시한번 정리해야 �
 
 ![IDD](../images/IDD.png)
 
-**IDD 진행방식**
+**Iterative Deepening 진행방식**
 
